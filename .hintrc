@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/structure": [
+      "default",
+      {
+        "listitem": "off"
+      }
+    ],
+    "axe/aria": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "height: fit-content"
+        ]
+      }
+    ]
+  }
+}
